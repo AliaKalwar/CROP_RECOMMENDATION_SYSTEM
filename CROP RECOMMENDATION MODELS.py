@@ -18,7 +18,8 @@ os.chdir("E:\BS CS IV files\AI\AI_Labs\project")
 # ==========================================
 # 2. LOAD DATA (CSV FILE)
 # ==========================================
-df = pd.read_csv("Crop_recommendation.csv")   # ✅ FIXED
+df = pd.read_csv("Crop_recommendation.csv")   
+
 
 print("Dataset Loaded Successfully ✅")
 print(df.head())
